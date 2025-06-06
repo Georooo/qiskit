@@ -369,7 +369,7 @@ def _text_circuit_drawer(
     idle_wires=True,
     with_layout=True,
     fold=None,
-    initial_state=True,
+    initial_state=False,
     cregbundle=None,
     encoding=None,
     wire_order=None,
@@ -395,7 +395,7 @@ def _text_circuit_drawer(
             `shutil.get_terminal_size()`. If you don't want pagination
             at all, set `fold=-1`.
         initial_state (bool): Optional. Adds |0> in the beginning of the line.
-            Default: `False`.
+            Default: ``False``.
         cregbundle (bool): Optional. If set True, bundle classical registers.
             Default: ``True``.
         encoding (str): Optional. Sets the encoding preference of the output.
