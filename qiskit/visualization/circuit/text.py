@@ -709,7 +709,7 @@ class TextDrawing:
         plotbarriers=True,
         line_length=None,
         vertical_compression="high",
-        initial_state=True,
+        initial_state=False,
         cregbundle=None,
         encoding=None,
         with_layout=False,
